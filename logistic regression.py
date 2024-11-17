@@ -23,6 +23,7 @@ results_log.predict()
 
 np.array(data['y'])
 
+##Confusion Matrix
 cm_df = pd.DataFrame(results_log.pred_table())
 cm_df.columns = ['Predicted 0', 'Predicted 1']
 cm_df = cm_df.rename(index={0:'Actual 0', 1: 'Actual 1'})
