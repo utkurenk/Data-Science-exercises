@@ -7,7 +7,7 @@ import seaborn as sns
 import sklearn
 sns.set()
 
-data = pd.read_csv('real_estate_price_size_year.csv')
+data = pd.read_csv('Databases/real_estate_price_size_year.csv')
 data.describe()
 
 y = data['price']

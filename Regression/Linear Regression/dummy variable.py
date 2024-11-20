@@ -7,7 +7,7 @@ import seaborn as sns
 import sklearn
 sns.set()
 
-raw_data = pd.read_csv('real_estate_price_size_year_view.csv')
+raw_data = pd.read_csv('Databases/real_estate_price_size_year_view.csv')
 
 data = raw_data.copy()
 data['view'] = data['view'].map({'Sea view': 1, 'No sea view': 0})

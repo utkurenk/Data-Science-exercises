@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set()
 
-raw_data = pd.read_csv('Bank_data.csv')
+raw_data = pd.read_csv('Databases/Bank_data.csv')
 
 data = raw_data.drop('Unnamed: 0', axis=1)
 data['y'] = data['y'].map({'yes':1, 'no':0})
@@ -51,7 +51,7 @@ def confusion_matrix(data, actual_values, model):
 print(confusion_matrix(X,y,results_logit))
 
 #Test
-test = pd.read_csv('Bank_data_testing.csv')
+test = pd.read_csv('Databases/Bank_data_testing.csv')
 test = test.drop('Unnamed: 0', axis=1)
 test['y'] = test['y'].map({'yes':1, 'no':0})
 

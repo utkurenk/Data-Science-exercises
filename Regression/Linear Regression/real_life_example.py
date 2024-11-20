@@ -8,7 +8,7 @@ from sklearn.linear_model import LinearRegression
 sns.set()
 
 ##Cleaning Data
-raw_data = pd.read_csv('real_life_example.csv')
+raw_data = pd.read_csv('Databases/real_life_example.csv')
 raw_data.describe(include='all')
 
 data = raw_data.drop(['Model'], axis=1)

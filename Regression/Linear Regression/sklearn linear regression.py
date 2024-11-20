@@ -7,7 +7,7 @@ import seaborn as sns
 from sklearn.linear_model import LinearRegression
 sns.set()
 
-data = pd.read_csv('real_estate_price_size.csv')
+data = pd.read_csv('Databases/real_estate_price_size.csv')
 
 x = data['size']
 y = data['price']

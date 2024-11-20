@@ -5,7 +5,7 @@ import seaborn as sns
 sns.set()
 from sklearn.cluster import KMeans
 
-data = pd.read_csv('Countries-exercise.csv')
+data = pd.read_csv('Databases/Countries-exercise.csv')
 print(data.head())
 
 plt.scatter(data['Longitude'], data['Latitude'])

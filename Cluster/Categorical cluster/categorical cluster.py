@@ -5,7 +5,7 @@ import seaborn as sns
 sns.set()
 from sklearn.cluster import KMeans
 
-data = pd.read_csv('Categorical.csv')
+data = pd.read_csv('Databases/Categorical.csv')
 print(data)
 
 #categorical

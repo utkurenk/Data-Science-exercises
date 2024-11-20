@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set()
 
-raw_data = pd.read_csv('Example_bank_data.csv')
+raw_data = pd.read_csv('Databases/Example_bank_data.csv')
 
 data = raw_data.copy()
 data['y'] = data['y'].map({'yes':1 , 'no':0})

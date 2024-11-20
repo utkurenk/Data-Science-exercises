@@ -5,7 +5,7 @@ import seaborn as sns
 sns.set()
 from sklearn.cluster import KMeans
 
-data = pd.read_csv('iris_dataset.csv')
+data = pd.read_csv('Databases/iris_dataset.csv')
 
 #plt.scatter(data['sepal_length'], data['sepal_width'])
 #plt.xlim(4,8)
