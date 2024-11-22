@@ -11,7 +11,7 @@ I am just getting started with Data Science and am excited to explore the world 
 - Data Cleaning and Preprocessing  
 - Exploratory Data Analysis (EDA)  
 - Visualization with Libraries like Matplotlib and Seaborn  
-- Introduction to Machine Learning (Coming Soon)  
+- Introduction to Machine Learning 
 
 ## Tools and Libraries  
 Here are some of the tools and libraries I use:  
