@@ -11,7 +11,7 @@ y = data.iloc[:, -1].values
 
 #regression
 from sklearn.ensemble import RandomForestRegressor
-regressor = RandomForestRegressor(random_state = 0)
+regressor = RandomForestRegressor(n_estimators=10, random_state = 0)
 regressor.fit(x, y)
 
 #predict new result
